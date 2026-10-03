@@ -1,0 +1,6 @@
+{
+  "name": "Localiza Assinatura",
+  "description": "Sua mobilidade inteligente, flexível e sustentável. Carros zero km por assinatura com IPVA, seguro, manutenção preventiva e assistência 24h inclusos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

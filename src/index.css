@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --color-primary: #006b35;
+  --color-primary-container: #008744;
+  --color-primary-fixed: #8cf9a9;
+  --color-on-primary-fixed: #00210c;
+  --color-on-primary-fixed-variant: #005227;
+  --color-secondary: #296b3f;
+  --color-secondary-container: #adf3bb;
+  --color-on-secondary-container: #2f7145;
+  --color-tertiary: #586100;
+  --color-tertiary-fixed: #daee00;
+  --color-tertiary-fixed-dim: #bfd100;
+  --color-on-tertiary-fixed: #1a1e00;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f1f3ff;
+  --color-surface-container: #e8eeff;
+  --color-surface-container-high: #e3e8f9;
+  --color-surface-container-highest: #dde2f3;
+  --color-on-surface: #161c27;
+  --color-on-surface-variant: #3e4a3f;
+  --color-outline-variant: #bdcabc;
+  --color-outline: #6e7a6e;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  display: inline-block;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  font-feature-settings: 'liga';
+}
